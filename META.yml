@@ -1,0 +1,26 @@
+--- #YAML:1.0
+name:               Template-Mustache
+version:            v0.5.0
+abstract:           Drawing Mustaches on Perl for fun and profit
+author:
+    - Pieter van de Bruggen <pvande@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  6.31
+    ExtUtils::Manifest:   1.56
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:  {}
+resources:
+    bugtracker:  https://github.com/pvande/Template-Mustache/issues
+    homepage:    https://github.com/pvande/Template-Mustache
+    repository:  git://github.com/pvande/Template-Mustache.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
