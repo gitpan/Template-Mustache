@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Template-Mustache
-version:            v0.5.0
+version:            v0.5.1
 abstract:           Drawing Mustaches on Perl for fun and profit
 author:
     - Pieter van de Bruggen <pvande@cpan.org>
@@ -11,7 +11,10 @@ configure_requires:
     ExtUtils::Manifest:   1.56
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Test::Mini::Unit:  v1.0.3
+    version:           0.77
+    YAML::Syck:        1.15
 resources:
     bugtracker:  https://github.com/pvande/Template-Mustache/issues
     homepage:    https://github.com/pvande/Template-Mustache
